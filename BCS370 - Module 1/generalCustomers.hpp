@@ -28,14 +28,13 @@ private:
 public:
     Customer();
     
-    Customer(int id, string n, string a, string t, string b);
-    
-    
     int getID();
     string getName();
     string getAddress();
     Preferred getTier();
     Black_Listed getBL();
+    
+    void registerCustomer(int id, string n, string a, string t, string b);
     
     void printCustomerInfo();
 };

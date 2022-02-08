@@ -20,14 +20,6 @@ Customer::Customer() : Preferred(), Black_Listed() {
     address = "n/a";
 }
     
-Customer::Customer(int id, string n, string a, string t, string b) {
-    customerID = id;
-    name = n;
-    address = a;
-    setTier(t);
-    setDate(b);
-}
-    
 int Customer::getID() {
     return customerID;
 }
@@ -36,6 +28,14 @@ string Customer::getName() {
 }
 string Customer::getAddress() {
     return address;
+}
+
+void Customer::registerCustomer(int id, string n, string a, string t, string b) {
+    customerID = id;
+    name = n;
+    address = a;
+    setTier(t);
+    setDate(b);
 }
     
 void Customer::printCustomerInfo() {

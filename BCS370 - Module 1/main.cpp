@@ -22,30 +22,30 @@ int main(int argc, const char * argv[]) {
     char type;
     string custBLD;
     
-    cout << "Enter Customer Id: ";
+    cout << "Enter Customer Id: " << endl;
     cin >> custID;
     
-    cout << "\nEnter Customer name: ";
+    cout << "Enter Customer name: " << endl;
     cin >> custName;
     
-    cout << "\nEnter Customer address: ";
+    cout << "Enter Customer address: " << endl;
     cin >> custAddress;
     
     do {
-        cout << "\nIs customer black-listed? [y/n]: ";
+        cout << "Is customer black-listed? [y/n]: " << endl;
         cin >> type;
     }
     while( !cin.fail() && type!='y' && type!='n' );
     
     if(type == 'y') {
-        cout << "\nEnter black-listed date: ";
+        cout << "Enter black-listed date: " << endl;
         cin >> custBLD;
     } else if (type == 'n') {
-        cout << "\nEnter customer tier: ";
+        cout << "Enter customer tier: " << endl;
         cin >> custTier;
     }
     
-    Customer one(custID, custName, custAddress, custTier, custBLD);
+    Customer one;
+    one.registerCustomer(custID, custName, custAddress, custTier, custBLD);
     one.printCustomerInfo();
-    
 }

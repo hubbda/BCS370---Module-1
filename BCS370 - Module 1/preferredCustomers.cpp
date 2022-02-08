@@ -29,4 +29,3 @@ string Preferred::getTier() {
 void Preferred::printCustomerInfo() {
     cout << "\nCustomer tier lvl = " << preferredTiers << endl;
 }
-
