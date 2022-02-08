@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0065A95A27B1EF7F001EE7B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0065A95927B1EF7F001EE7B4 /* main.cpp */; };
+		0065A96227B1F01C001EE7B4 /* generalCustomers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0065A96027B1F01C001EE7B4 /* generalCustomers.cpp */; };
+		0065A96527B1F8B4001EE7B4 /* preferredCustomers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0065A96327B1F8B4001EE7B4 /* preferredCustomers.cpp */; };
+		0065A96827B1FEE1001EE7B4 /* blackListedCustomers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0065A96627B1FEE1001EE7B4 /* blackListedCustomers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		0065A95627B1EF7F001EE7B4 /* BCS370 - Module 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "BCS370 - Module 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0065A95927B1EF7F001EE7B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0065A96027B1F01C001EE7B4 /* generalCustomers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = generalCustomers.cpp; sourceTree = "<group>"; };
+		0065A96127B1F01C001EE7B4 /* generalCustomers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = generalCustomers.hpp; sourceTree = "<group>"; };
+		0065A96327B1F8B4001EE7B4 /* preferredCustomers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = preferredCustomers.cpp; sourceTree = "<group>"; };
+		0065A96427B1F8B4001EE7B4 /* preferredCustomers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = preferredCustomers.hpp; sourceTree = "<group>"; };
+		0065A96627B1FEE1001EE7B4 /* blackListedCustomers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = blackListedCustomers.cpp; sourceTree = "<group>"; };
+		0065A96727B1FEE1001EE7B4 /* blackListedCustomers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = blackListedCustomers.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				0065A95927B1EF7F001EE7B4 /* main.cpp */,
+				0065A96027B1F01C001EE7B4 /* generalCustomers.cpp */,
+				0065A96127B1F01C001EE7B4 /* generalCustomers.hpp */,
+				0065A96327B1F8B4001EE7B4 /* preferredCustomers.cpp */,
+				0065A96427B1F8B4001EE7B4 /* preferredCustomers.hpp */,
+				0065A96627B1FEE1001EE7B4 /* blackListedCustomers.cpp */,
+				0065A96727B1FEE1001EE7B4 /* blackListedCustomers.hpp */,
 			);
 			path = "BCS370 - Module 1";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0065A96827B1FEE1001EE7B4 /* blackListedCustomers.cpp in Sources */,
+				0065A96227B1F01C001EE7B4 /* generalCustomers.cpp in Sources */,
 				0065A95A27B1EF7F001EE7B4 /* main.cpp in Sources */,
+				0065A96527B1F8B4001EE7B4 /* preferredCustomers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
