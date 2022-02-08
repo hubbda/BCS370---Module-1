@@ -18,6 +18,7 @@ Black_Listed::Black_Listed() {
 }
 
 void Black_Listed::setDate(string d) {
+    // If variable d is empty/null then blackListDate is set to no, otherwise set to d
     if (d == "") {
         blackListDate = "no";
     } else {
